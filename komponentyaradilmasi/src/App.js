@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from "react";
+import UserCv from "./components/UserCv/UserCv";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div>
+      <UserCv />
+    </div>
+  );
 }
 
 export default App;
